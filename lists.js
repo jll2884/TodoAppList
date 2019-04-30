@@ -3,6 +3,7 @@ $(document).ready(function() {
     let ul = $("ul");
     ul.on('click', 'li', function () {
         $(this).toggleClass("strike");
+
     });
     $("button").click(function () {
         let item = "<li>"+textArea.val()+"</li>";
